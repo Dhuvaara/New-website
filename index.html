@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhuvaaragesh M | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav-wrap">
+      <h1 class="logo">Dhuvaaragesh M</h1>
+      <button id="menu-btn" class="menu-btn">Menu</button>
+      <nav id="navbar" class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="section hero reveal">
+      <div class="container hero-grid">
+        <div>
+          <p class="tag">Hello, I am</p>
+          <h2>Dhuvaaragesh M</h2>
+          <p class="subtitle">an aspiring Front-End Developer</p>
+          <p class="text-muted">I design and build user-friendly interfaces with clean layouts and smooth interactions.</p>
+          <a href="#projects" class="btn">View Projects</a>
+        </div>
+        <div class="profile-wrap">
+          <img
+            class="profile-image"
+            src="C:/Users/MuruRaji/.cursor/projects/c-Users-MuruRaji-Desktop-New-website/assets/c__Users_MuruRaji_AppData_Roaming_Cursor_User_workspaceStorage_05da01b9719df20714d7cca64196eb4f_images_1773847203573_2_-8c0f9abe-4e4e-4774-aab5-ea4733ee9f2d.png"
+            alt="Dhuvaaragesh M profile image"
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section reveal">
+      <div class="container">
+        <h2>About</h2>
+        <p class="text-muted">
+          I am currently a 3rd year student pursuing Artificial Intelligence and Data Science.
+        </p>
+        <p class="text-muted">
+          I am passionate about frontend development, UI design, and building user-friendly websites.
+        </p>
+        <p class="text-muted">
+          I am also interested in networking, cloud, and software development.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section reveal">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <article class="card skill-card">
+            <div class="skill-head">
+              <h3>HTML</h3>
+              <span>95%</span>
+            </div>
+            <div class="progress"><span style="width: 95%;"></span></div>
+          </article>
+          <article class="card skill-card">
+            <div class="skill-head">
+              <h3>CSS</h3>
+              <span>90%</span>
+            </div>
+            <div class="progress"><span style="width: 90%;"></span></div>
+          </article>
+          <article class="card skill-card">
+            <div class="skill-head">
+              <h3>Python</h3>
+              <span>80%</span>
+            </div>
+            <div class="progress"><span style="width: 80%;"></span></div>
+          </article>
+          <article class="card skill-card">
+            <div class="skill-head">
+              <h3>Microsoft Excel</h3>
+              <span>85%</span>
+            </div>
+            <div class="progress"><span style="width: 85%;"></span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <article class="card">
+            <h3>Smart Vision - SMS Alert System</h3>
+            <p class="text-muted">
+              Smart Vision is a real-time SMS alert system designed to notify users instantly based on
+              specific triggers or events. The system uses the Fast2SMS API to send messages quickly and reliably.
+            </p>
+
+            <h4>Objective</h4>
+            <p class="text-muted">
+              Improve communication efficiency by delivering instant alerts through SMS, helping users stay
+              informed in real-time without delay.
+            </p>
+
+            <h4>How It Works</h4>
+            <ul class="text-muted">
+              <li>When a specific event or condition is triggered, the system processes the information.</li>
+              <li>The backend (Python) handles the logic and prepares the message.</li>
+              <li>The system integrates with the Fast2SMS API.</li>
+              <li>An SMS is sent instantly to the user.</li>
+            </ul>
+
+            <h4>Features</h4>
+            <ul class="text-muted">
+              <li>Real-time SMS notifications</li>
+              <li>Fast and reliable message delivery</li>
+              <li>Easy API integration</li>
+              <li>User-friendly interface</li>
+            </ul>
+
+            <h4>Technologies Used</h4>
+            <p class="tech">HTML, CSS (Frontend), Python (Backend), Fast2SMS API</p>
+
+            <h4>Use Cases</h4>
+            <ul class="text-muted">
+              <li>Emergency alert systems</li>
+              <li>OTP verification systems</li>
+              <li>Notification systems for apps/websites</li>
+              <li>College or office alert systems</li>
+            </ul>
+
+            <h4>Conclusion</h4>
+            <p class="text-muted">
+              This project demonstrates how API integration and backend logic can be used to build an
+              efficient real-time communication system.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="section reveal">
+      <div class="container">
+        <h2>Resume</h2>
+        <a class="btn" href="#" download>Download Resume</a>
+      </div>
+    </section>
+
+    <section id="contact" class="section reveal">
+      <div class="container">
+        <h2>Contact</h2>
+        <form id="contact-form" class="contact-form">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+          <p id="message"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-wrap">
+      <p>&copy; 2026 Dhuvaaragesh M</p>
+      <div class="social-links">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
